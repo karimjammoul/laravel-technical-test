@@ -22,7 +22,6 @@
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.print.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.colVis.min.js"></script>
 
-    @includeIf($scriptPath)
 </head>
 <body class="font-sans">
 

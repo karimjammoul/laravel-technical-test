@@ -26,8 +26,6 @@ class UserController extends Controller
         $total_pages = ceil($users['total'] / $per_page);
         $data['total_pages'] = $total_pages;
 
-        $data['scriptPath'] = 'users.script';
-
         return view('users.index', $data);
     }
 }
